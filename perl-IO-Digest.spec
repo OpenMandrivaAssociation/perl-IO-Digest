@@ -1,6 +1,6 @@
 %define module  IO-Digest
 %define version 0.10
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: 	%{module} module, calculate digests while reading or writing  
 Name: 		perl-%{module}
