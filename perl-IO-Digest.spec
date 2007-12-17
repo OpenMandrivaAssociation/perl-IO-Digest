@@ -11,7 +11,6 @@ Group: 		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CL/CLKAO/%{module}-%{version}.tar.bz2
 Url:        http://search.cpan.org/dist/%{module}/
 BuildArch: 	noarch
-BuildRoot: 	%{_tmppath}/%{name}-buildroot
 BuildRequires:	perl-devel perl-PerlIO-via-dynamic
 
 %description
