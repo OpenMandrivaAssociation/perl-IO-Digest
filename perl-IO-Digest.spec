@@ -12,7 +12,9 @@ Source0:	http://search.cpan.org/CPAN/authors/id/C/CL/CLKAO/%{module}-%{version}.
 Url:        http://search.cpan.org/dist/%{module}/
 BuildArch: 	noarch
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
-BuildRequires:	perl-devel perl-PerlIO-via-dynamic
+BuildRequires:	perl-devel perl-PerlIO-via-dynamic 
+# for test
+BuildRequires:	perl-Internals
 
 %description
 This module allows you to calculate digests while reading or writing file 
