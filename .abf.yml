@@ -1,2 +1,4 @@
+removed_sources:
+  IO-Digest-0.10.tar.bz2: b25292a59faf5c1506b7c3ba1a4814adb2386bdd
 sources:
-  "IO-Digest-0.10.tar.bz2": b25292a59faf5c1506b7c3ba1a4814adb2386bdd
+  IO-Digest-0.11.tar.gz: af320a8dbd79da8befa2a24c4ad254990f4c957a
