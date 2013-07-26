@@ -1,15 +1,15 @@
 %define upstream_name    IO-Digest
-%define upstream_version 0.10
+%define upstream_version 0.11
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.11
+Release:	1
 
 Summary:	%{upstream_name} module, calculate digests while reading or writing  
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/C/CL/CLKAO/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/authors/id/C/CL/CLKAO/IO-Digest-0.11.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl-PerlIO-via-dynamic
@@ -68,4 +68,5 @@ make test
 
 * Tue Sep 21 2004 Michael Scherer <misc@mandrake.org> 0.10-1mdk
 - First Mandrakelinux package
+
 
