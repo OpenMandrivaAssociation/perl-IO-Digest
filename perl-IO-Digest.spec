@@ -8,7 +8,7 @@ Release:	3
 Summary:	%{upstream_name} module, calculate digests while reading or writing  
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/authors/id/C/CL/CLKAO/IO-Digest-0.11.tar.gz
 
 BuildRequires:	perl-devel
