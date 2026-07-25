@@ -2,14 +2,14 @@
 %define upstream_version 0.11
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.11
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	%{upstream_name} module, calculate digests while reading or writing  
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/authors/id/C/CL/CLKAO/IO-Digest-0.11.tar.gz
+Url:		https://github.com/clkao/IO-Digest
+Source0:	https://cpan.metacpan.org/authors/id/C/CL/CLKAO/IO-Digest-0.11.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
