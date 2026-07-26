@@ -1,9 +1,7 @@
 %define upstream_name    IO-Digest
-%define upstream_version 0.11
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	0.11
+Release:	5
 
 Summary:	%{upstream_name} module, calculate digests while reading or writing  
 License:	GPL+ or Artistic
@@ -24,7 +22,7 @@ handles. This avoids the case you need to reread the same content to
 compute the digests after written a file.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -45,9 +43,7 @@ make test
 %changelog
 * Sat Aug 01 2009 Jérôme Quelin <jquelin@mandriva.org> 0.100.0-1mdv2010.0
 + Revision: 406066
-- rebuild using %%perl_convert_version
-
-* Thu Jul 03 2008 Michael Scherer <misc@mandriva.org> 0.10-4mdv2009.0
+- rebuild using %0.11 Thu Jul 03 2008 Michael Scherer <misc@mandriva.org> 0.10-4mdv2009.0
 + Revision: 230905
 - add missing BuildRequires
 - rebuild
